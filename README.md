@@ -1,52 +1,93 @@
 # gridhopper-docs
-Gridhopper – Privacy Policy
+Gridhopper – Privacy Policy & Support
 
 Last updated: 2026-03-02
 
-Gridhopper is a browser extension that runs entirely locally in the user’s browser.
+Overview
 
-Data collection:
+Gridhopper is a Chrome extension that provides keyboard-driven spatial navigation using a 3x3 grid overlay. The extension operates entirely within the user’s browser.
 
-No personal data is collected.
+All functionality is executed locally and only when explicitly activated by the user.
 
-No browsing history is stored.
+Privacy Policy
+Data Collection
 
-No analytics or telemetry.
+Gridhopper does not collect, store, process, or transmit personal data.
 
-No tracking technologies.
+Specifically:
 
-No advertising identifiers.
+No personal information is collected
 
-Data transmission:
+No browsing history is stored
 
-No data is transmitted to external servers.
+No keystroke logging
 
-No remote code execution.
+No analytics or telemetry
 
-No third-party integrations.
+No tracking technologies
 
-Storage:
+No advertising identifiers
 
-The extension does not persist user activity data.
+Data Transmission
 
-No background data synchronization.
+No data is transmitted to external servers
 
-All functionality is executed locally within the browser context when the user activates the extension.
+No background network requests
 
-If this policy changes, updates will be reflected on this page.
+No third-party integrations
+
+No remote code execution
+
+The extension does not communicate with any external services.
+
+Storage
+
+No persistent storage of user activity
+
+No cloud synchronization
+
+No background data retention
+
+Gridhopper runs only within the active browser tab when triggered by the user.
+
+Permissions Usage
+
+Gridhopper requests only the minimum permissions required:
+
+activeTab – to inject the navigation overlay into the current tab when activated by the user
+
+scripting – to programmatically inject required content scripts for grid rendering and keyboard handling
+
+The extension does not access or process data unless the user activates it.
+
+Security
+
+No dynamic code execution
+
+No use of eval or remote script loading
+
+No external dependencies loaded at runtime
+
+All extension resources are packaged locally within the extension bundle.
 
 Support
 
-For bug reports, feature requests, or compatibility issues:
+For bug reports, compatibility issues, or feature requests:
 
 Please open an issue in this repository.
 
 When reporting a problem, include:
 
-Website URL
+The website URL
 
 Steps to reproduce
 
-Chrome version
+Your Chrome version
 
-Extension version
+The extension version
+
+This repository is used for documentation and issue tracking purposes.
+
+Updates
+
+If this policy changes, updates will be reflected on this page.
