@@ -1,5 +1,5 @@
 # gridhopper-docs
-Gridhopper – Privacy Policy & Support
+Gridhopper (v1.0.0) – Privacy Policy & Support
 
 Last updated: 2026-03-02
 
