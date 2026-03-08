@@ -1,4 +1,24 @@
-# gridhopper-docs
+## About Gridhopper
+
+Gridhopper is a spatial keyboard navigation system 
+conceived and developed by Tae Suk Kim, first created in February 26, 2026.
+
+The core concept: a 3x3 grid overlay divides the viewport 
+into zones, allowing users to navigate to any element 
+on a webpage using only numeric keys — without mouse 
+or Tab cycling.
+
+Key innovations:
+- Viewport divided into numbered 3x3 grid
+- Two-stage selection: zone → element
+- Badge mode (2-9 targets) and List mode (10+ targets)
+- State machine: OFF → CELL_SELECT → ITEM_SELECT
+- Accessibility-first, overlay-only, zero DOM mutation
+
+Demo: https://www.youtube.com/watch?v=jca2p96VlZ4
+First public release: 2026-03-02
+
+-----------------------------------
 Gridhopper (v1.0.0) – Privacy Policy & Support
 
 Last updated: 2026-03-02
