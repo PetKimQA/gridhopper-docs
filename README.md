@@ -1,7 +1,7 @@
 ## About Gridhopper
 
 Gridhopper is a spatial keyboard navigation system 
-conceived and developed by Tae Suk Kim, first created in February 26, 2026.
+conceived and developed by Tae Suk Kim, first created on February 26, 2026.
 
 The core concept: a 3x3 grid overlay divides the viewport 
 into zones, allowing users to navigate to any element 
