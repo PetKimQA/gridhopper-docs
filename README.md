@@ -12,8 +12,12 @@ Key innovations:
 - Viewport divided into numbered 3x3 grid
 - Two-stage selection: zone → element
 - Badge mode (2-9 targets) and List mode (10+ targets)
+- Type-shaped badges: distinct shapes per element type (link, button, input, select)
 - State machine: OFF → CELL_SELECT → ITEM_SELECT
 - Accessibility-first, overlay-only, zero DOM mutation
+- Onboarding page on first install, What's New page on update
+- Restricted page notification
+- Available on Chrome, Firefox, and Edge
 
 Demo: https://www.youtube.com/watch?v=jca2p96VlZ4
 First public release: 2026-03-02
@@ -21,7 +25,7 @@ First public release: 2026-03-02
 -----------------------------------
 Gridhopper (v1.0.0) – Privacy Policy & Support
 
-Last updated: 2026-03-02
+Last updated: 2026-05-24
 
 Overview
 
@@ -33,6 +37,8 @@ Privacy Policy
 Data Collection
 
 Gridhopper does not collect, store, process, or transmit personal data.
+
+Starting in v1.1.1, Gridhopper uses the browser notifications API to display a single message when activated on a restricted page. No other notifications are sent. No data is collected or transmitted through this feature.
 
 Specifically:
 
@@ -60,6 +66,8 @@ No remote code execution
 
 The extension does not communicate with any external services.
 
+The notifications permission is used for local browser notifications only. No data leaves the browser.
+
 Storage
 
 No persistent storage of user activity
@@ -77,6 +85,8 @@ Gridhopper requests only the minimum permissions required:
 activeTab – to inject the navigation overlay into the current tab when activated by the user
 
 scripting – to programmatically inject required content scripts for grid rendering and keyboard handling
+
+notifications – used solely to show a single notification when the user activates Gridhopper on a restricted page (e.g. chrome:// URLs) where content scripts cannot run. No other notifications are sent.
 
 The extension does not access or process data unless the user activates it.
 
