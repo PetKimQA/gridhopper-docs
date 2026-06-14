@@ -13,19 +13,20 @@ Key innovations:
 - Two-stage selection: zone → element
 - Badge mode (2-9 targets) and List mode (10+ targets)
 - Type-shaped badges: distinct shapes per element type (link, button, input, select)
+- Real-time element highlight during list mode navigation
+- Smart target filtering: only visible elements within the selected cell are shown
 - State machine: OFF → CELL_SELECT → ITEM_SELECT
 - Accessibility-first, overlay-only, zero DOM mutation
 - Onboarding page on first install, What's New page on update
 - Restricted page notification
-- Available on Chrome, Firefox, and Edge
 
 Demo: https://www.youtube.com/watch?v=jca2p96VlZ4
 First public release: 2026-03-02
 
 -----------------------------------
-Gridhopper (v1.0.0) – Privacy Policy & Support
+Gridhopper (v1.2.0) – Privacy Policy & Support
 
-Last updated: 2026-05-24
+Last updated: 2026-06-13
 
 Overview
 
@@ -112,7 +113,7 @@ The website URL
 
 Steps to reproduce
 
-Your Chrome version
+Your Browser version
 
 The extension version
 
