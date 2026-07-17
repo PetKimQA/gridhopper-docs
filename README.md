@@ -105,7 +105,7 @@ Support
 
 For bug reports, compatibility issues, or feature requests:
 
-Please open an issue in this repository.
+Please open an issue in this repository. (https://github.com/PetKimQA/gridhopper-docs)
 
 When reporting a problem, include:
 
